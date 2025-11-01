@@ -1,0 +1,152 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/ARQUIAMOR/BURRITO
+vMdI
+Z0 !s110 1760985192
+!i10b 1
+!s100 Emgl=c4la9hg5USfk^BY@1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUPXlnQ89R4RQ?]kC9Ym@=1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/ARQUIAMOR/QUEKA
+w1760981304
+Z4 8E:/ARQUIAMOR/QUEKA/MdI.v
+Z5 FE:/ARQUIAMOR/QUEKA/MdI.v
+!i122 70
+Z6 L0 1 16
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1760985192.000000
+Z9 !s107 E:/ARQUIAMOR/QUEKA/MdI.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/QUEKA/MdI.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@md@i
+vMdL
+!s110 1760981172
+!i10b 1
+!s100 AS0k72GF;z^FUaW8PjNlA1
+R1
+IW=D3jGE@H8:Rb0kSSHMEL3
+R2
+R3
+w1760933410
+R4
+R5
+!i122 18
+R6
+R7
+r1
+!s85 0
+31
+!s108 1760981172.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@md@l
+vPC
+!s110 1760985191
+!i10b 1
+!s100 ?zJ=ag8=GZETLflQbfAdL2
+R1
+IBQ=:0R;8gHOOVXX50OBV>3
+R2
+R3
+w1760984084
+8E:\ARQUIAMOR\QUEKA\PC.v
+FE:\ARQUIAMOR\QUEKA\PC.v
+!i122 68
+L0 2 14
+R7
+r1
+!s85 0
+31
+!s108 1760985190.000000
+!s107 E:\ARQUIAMOR\QUEKA\PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\ARQUIAMOR\QUEKA\PC.v|
+!i113 1
+R11
+R12
+n@p@c
+vqueka
+Z13 !s110 1760985193
+!i10b 1
+!s100 aikCgSVc:8>`eb7PcSbl;3
+R1
+I3k28lPJFI^[=>`QodEe@22
+R2
+R3
+w1760984290
+8E:\ARQUIAMOR\QUEKA\queka.v
+FE:\ARQUIAMOR\QUEKA\queka.v
+!i122 71
+L0 1 25
+R7
+r1
+!s85 0
+31
+Z14 !s108 1760985193.000000
+!s107 E:\ARQUIAMOR\QUEKA\queka.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\ARQUIAMOR\QUEKA\queka.v|
+!i113 1
+R11
+R12
+vqueka_tb
+R13
+!i10b 1
+!s100 ?oV?fEeg<z8QXWiiaeUKG1
+R1
+IO8:WD:5h0[[e1mg>2?gn50
+R2
+R3
+w1760985186
+8E:\ARQUIAMOR\QUEKA\queka_tb.v
+FE:\ARQUIAMOR\QUEKA\queka_tb.v
+!i122 72
+L0 2 24
+R7
+r1
+!s85 0
+31
+R14
+!s107 E:\ARQUIAMOR\QUEKA\queka_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\ARQUIAMOR\QUEKA\queka_tb.v|
+!i113 1
+R11
+R12
+vsum
+R0
+!i10b 1
+!s100 [:W9amC?JhJjM8moXgD?;2
+R1
+IOTUg_edlk_nKi@_`l9>Ab3
+R2
+R3
+w1760934366
+8E:\ARQUIAMOR\QUEKA\sumador.v
+FE:\ARQUIAMOR\QUEKA\sumador.v
+!i122 69
+L0 1 9
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:\ARQUIAMOR\QUEKA\sumador.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\ARQUIAMOR\QUEKA\sumador.v|
+!i113 1
+R11
+R12

@@ -1,0 +1,36 @@
+E:/ARQUIAMOR/QUEKA/queka_tb.v {1 {vlog -work work -stats=none {E:\ARQUIAMOR\QUEKA\queka_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module queka_tb
+
+Top level modules:
+	queka_tb
+
+} {} {}} E:/ARQUIAMOR/QUEKA/MdI.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/QUEKA/MdI.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MdI
+
+Top level modules:
+	MdI
+
+} {} {}} E:/ARQUIAMOR/QUEKA/queka.v {1 {vlog -work work -stats=none {E:\ARQUIAMOR\QUEKA\queka.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module queka
+
+Top level modules:
+	queka
+
+} {} {}} E:/ARQUIAMOR/QUEKA/PC.v {1 {vlog -work work -stats=none {E:\ARQUIAMOR\QUEKA\PC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} E:/ARQUIAMOR/QUEKA/sumador.v {1 {vlog -work work -stats=none {E:\ARQUIAMOR\QUEKA\sumador.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sum
+
+Top level modules:
+	sum
+
+} {} {}}

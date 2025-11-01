@@ -1,0 +1,175 @@
+# Compile of PC.v was successful.
+# Compile of sumador.v was successful.
+# Compile of MdI.v was successful.
+# Compile of queka.v was successful.
+# Compile of queka_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.queka_tb
+# vsim -gui work.queka_tb 
+# Start time: 11:46:21 on Oct 20,2025
+# Loading work.queka_tb
+# Loading work.queka
+# Loading work.PC
+# Loading work.MdI
+# Loading work.sum
+add wave -position end sim:/queka_tb/*
+run
+# ** Warning: (vsim-7) Failed to open readmem file "instrucciones.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/ARQUIAMOR/QUEKA/MdI.v(9)
+#    Time: 0 ns  Iteration: 0  Instance: /queka_tb/DUV/tortilla
+# ** Note: $finish    : E:/ARQUIAMOR/QUEKA/queka_tb.v(25)
+#    Time: 0 ns  Iteration: 0  Instance: /queka_tb
+# 1
+# Break in Module queka_tb at E:/ARQUIAMOR/QUEKA/queka_tb.v line 25
+quit -sim
+# End time: 11:47:08 on Oct 20,2025, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 3
+# Compile of queka_tb.v was successful.
+vsim -gui work.queka_tb
+# vsim -gui work.queka_tb 
+# Start time: 11:47:44 on Oct 20,2025
+# Loading work.queka_tb
+# Loading work.queka
+# Loading work.PC
+# Loading work.MdI
+# Loading work.sum
+add wave -position end sim:/queka_tb/*
+run
+# ** Warning: (vsim-7) Failed to open readmem file "instrucciones.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/ARQUIAMOR/QUEKA/MdI.v(9)
+#    Time: 0 ns  Iteration: 0  Instance: /queka_tb/DUV/tortilla
+# ** Note: $finish    : E:/ARQUIAMOR/QUEKA/queka_tb.v(21)
+#    Time: 50 ns  Iteration: 0  Instance: /queka_tb
+# 1
+# Break in Module queka_tb at E:/ARQUIAMOR/QUEKA/queka_tb.v line 21
+run
+# ** Note: $finish    : E:/ARQUIAMOR/QUEKA/queka_tb.v(21)
+#    Time: 100 ns  Iteration: 0  Instance: /queka_tb
+# 1
+# Break in Module queka_tb at E:/ARQUIAMOR/QUEKA/queka_tb.v line 21
+run
+# ** Note: $finish    : E:/ARQUIAMOR/QUEKA/queka_tb.v(21)
+#    Time: 150 ns  Iteration: 0  Instance: /queka_tb
+# 1
+# Break in Module queka_tb at E:/ARQUIAMOR/QUEKA/queka_tb.v line 21
+run
+# ** Note: $finish    : E:/ARQUIAMOR/QUEKA/queka_tb.v(21)
+#    Time: 200 ns  Iteration: 0  Instance: /queka_tb
+# 1
+# Break in Module queka_tb at E:/ARQUIAMOR/QUEKA/queka_tb.v line 21
+run
+# ** Note: $finish    : E:/ARQUIAMOR/QUEKA/queka_tb.v(21)
+#    Time: 250 ns  Iteration: 0  Instance: /queka_tb
+# 1
+# Break in Module queka_tb at E:/ARQUIAMOR/QUEKA/queka_tb.v line 21
+add wave -position end  sim:/queka_tb/DUV/queso/clk
+add wave -position end  sim:/queka_tb/DUV/queso/next
+add wave -position end  sim:/queka_tb/DUV/queso/IA
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Warning: (vsim-7) Failed to open readmem file "instrucciones.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/ARQUIAMOR/QUEKA/MdI.v(9)
+#    Time: 0 ns  Iteration: 0  Instance: /queka_tb/DUV/tortilla
+# ** Note: $finish    : E:/ARQUIAMOR/QUEKA/queka_tb.v(21)
+#    Time: 50 ns  Iteration: 0  Instance: /queka_tb
+# 1
+# Break in Module queka_tb at E:/ARQUIAMOR/QUEKA/queka_tb.v line 21
+# Compile of PC.v was successful.
+# Compile of sumador.v was successful.
+# Compile of MdI.v was successful.
+# Compile of queka.v was successful.
+# Compile of queka_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+quit -sim
+# End time: 11:57:36 on Oct 20,2025, Elapsed time: 0:09:52
+# Errors: 0, Warnings: 2
+# Compile of PC.v was successful.
+# Compile of sumador.v was successful.
+# Compile of MdI.v was successful.
+# Compile of queka.v was successful.
+# Compile of queka_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.PC
+# vsim -gui work.PC 
+# Start time: 12:00:37 on Oct 20,2025
+# Loading work.PC
+run
+add wave -position end  sim:/PC/clk
+add wave -position end  sim:/PC/next
+add wave -position end  sim:/PC/IA
+run
+run
+run
+quit -sim
+# End time: 12:03:20 on Oct 20,2025, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 3
+# Load canceled
+# Compile of PC.v failed with 1 errors.
+# Compile of PC.v failed with 1 errors.
+# Compile of PC.v was successful.
+# Compile of PC.v was successful.
+# Compile of sumador.v was successful.
+# Compile of MdI.v was successful.
+# Compile of queka.v was successful.
+# Compile of queka_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.PC
+# vsim -gui work.PC 
+# Start time: 12:20:53 on Oct 20,2025
+# Loading work.PC
+add wave -position end  sim:/PC/clk
+add wave -position end  sim:/PC/next
+add wave -position end  sim:/PC/IA
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 12:25:40 on Oct 20,2025, Elapsed time: 0:04:47
+# Errors: 0, Warnings: 5
+# Compile of PC.v was successful.
+# Compile of sumador.v was successful.
+# Compile of MdI.v was successful.
+# Compile of queka.v was successful.
+# Compile of queka_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.queka_tb
+# vsim -gui work.queka_tb 
+# Start time: 12:33:22 on Oct 20,2025
+# Loading work.queka_tb
+# Loading work.queka
+# Loading work.PC
+# Loading work.MdI
+# Loading work.sum
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (31) for port 'op1'. The port definition is at: E:/ARQUIAMOR/QUEKA/sumador.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /queka_tb/DUV/salsa File: E:/ARQUIAMOR/QUEKA/queka.v Line: 19
+add wave -position end  sim:/queka_tb/clk
+add wave -position end  sim:/queka_tb/IQ_tb
+run
+# ** Warning: (vsim-7) Failed to open readmem file "instrucciones.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : E:/ARQUIAMOR/QUEKA/MdI.v(9)
+#    Time: 0 ns  Iteration: 0  Instance: /queka_tb/DUV/tortilla
+run
+# ** Note: $stop    : E:/ARQUIAMOR/QUEKA/queka_tb.v(22)
+#    Time: 350 ns  Iteration: 0  Instance: /queka_tb
+# Break in Module queka_tb at E:/ARQUIAMOR/QUEKA/queka_tb.v line 22
+quit -sim
+# End time: 12:34:34 on Oct 20,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 4
+vsim -gui work.PC
+# vsim -gui work.PC 
+# Start time: 12:34:46 on Oct 20,2025
+# Loading work.PC
+add wave -position end  sim:/PC/clk
+add wave -position end  sim:/PC/next
+add wave -position end  sim:/PC/IA
+run
+run
+# End time: 12:36:49 on Oct 20,2025, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 1

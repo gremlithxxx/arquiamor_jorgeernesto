@@ -1,0 +1,29 @@
+module queka_tb(
+	//No tiene ni entradas ni salidas, porque es un test bench
+);
+
+reg clk;
+wire [31:0] IQ_tb;
+
+queka DUV(
+	.clk(clk),
+	.inst(IQ_tb)
+);
+
+always begin
+	#50 clk = ~clk; 
+end
+
+always @(clk) begin
+	clk = ~clk; 
+	#50;
+end
+
+initial begin
+	#50;
+	clk=1'b0;
+	#250;
+	$finish;
+end
+
+endmodule
