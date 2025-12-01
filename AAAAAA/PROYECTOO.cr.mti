@@ -1,0 +1,114 @@
+E:/ARQUIAMOR/AAAAAA/SignExtend.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/SignExtend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/ShiftLeft2.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/ShiftLeft2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ShiftLeft2
+-- Compiling module ShiftLeft2_Jump
+
+Top level modules:
+	ShiftLeft2
+	ShiftLeft2_Jump
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/ALUControl.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/ALUControl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/EX_MEM_Buffer.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/EX_MEM_Buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EX_MEM_Buffer
+
+Top level modules:
+	EX_MEM_Buffer
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/BancoRegistros.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/BancoRegistros.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BancoRegistros
+
+Top level modules:
+	BancoRegistros
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/ControlUnit.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/ControlUnit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/ALU.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/ID_EX_Buffer.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/ID_EX_Buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ID_EX_Buffer
+
+Top level modules:
+	ID_EX_Buffer
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/Mux.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/Mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2to1_5bit
+-- Compiling module Mux2to1_32bit
+-- Compiling module Mux3to1_32bit
+-- Compiling module Mux4to1_32bit
+
+Top level modules:
+	Mux2to1_5bit
+	Mux2to1_32bit
+	Mux3to1_32bit
+	Mux4to1_32bit
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/MemoriaInstrucciones.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/MemoriaInstrucciones.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MemoriaInstrucciones
+
+Top level modules:
+	MemoriaInstrucciones
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/IF_ID_Buffer.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/IF_ID_Buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IF_ID_Buffer
+
+Top level modules:
+	IF_ID_Buffer
+
+} {} {}} {E:/ARQUIAMOR/AAAAAA/PC (1).v} {1 {vlog -work work -stats=none {E:/ARQUIAMOR/AAAAAA/PC (1).v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/MemoriaDatos.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/MemoriaDatos.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MemoriaDatos
+
+Top level modules:
+	MemoriaDatos
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/Adder.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} E:/ARQUIAMOR/AAAAAA/MEM_WB_Buffer.v {1 {vlog -work work -stats=none E:/ARQUIAMOR/AAAAAA/MEM_WB_Buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MEM_WB_Buffer
+
+Top level modules:
+	MEM_WB_Buffer
+
+} {} {}}
