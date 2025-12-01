@@ -1,0 +1,181 @@
+// ============================================================================
+// Testbench - MIPS Pipeline Completo
+// ============================================================================
+// Simula el procesador MIPS Pipeline ejecutando el programa voraz
+// de cambio de monedas.
+// ============================================================================
+
+`timescale 1ns / 1ps
+
+module tb_MIPS_Pipeline;
+
+    // ========================================================================
+    // Señales del testbench
+    // ========================================================================
+    reg clk;
+    reg reset;
+    
+    // Contadores
+    integer cycle_count;
+    integer i;
+    reg simulation_done;
+    
+    // ========================================================================
+    // Instanciar el procesador MIPS Pipeline
+    // ========================================================================
+    MIPS_Pipeline uut (
+        .clk(clk),
+        .reset(reset)
+    );
+    
+    // ========================================================================
+    // Generador de reloj - 100MHz (período 10ns)
+    // ========================================================================
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+    end
+    
+    // ========================================================================
+    // Proceso principal de simulación
+    // ========================================================================
+    initial begin
+        // Inicializar variables
+        simulation_done = 0;
+        cycle_count = 0;
+        
+        // Configurar generación de waveform
+        $dumpfile("tb_MIPS_Pipeline.vcd");
+        $dumpvars(0, tb_MIPS_Pipeline);
+        
+        // Mensaje inicial
+        $display("");
+        $display("============================================================");
+        $display("   TESTBENCH - MIPS Pipeline de 5 Etapas");
+        $display("   Algoritmo Voraz: Cambio de Monedas");
+        $display("============================================================");
+        $display("");
+        
+        // Mostrar datos iniciales
+        $display("DATOS INICIALES EN MEMORIA:");
+        $display("   Monto a cambiar: 47 centavos");
+        $display("   Denominaciones: [25, 10, 5, 1]");
+        $display("   Resultado esperado: 5 monedas (1x25 + 2x10 + 0x5 + 2x1)");
+        $display("");
+        
+        // ====================================================================
+        // Reset inicial
+        // ====================================================================
+        $display("Iniciando reset...");
+        reset = 1;
+        #20;
+        reset = 0;
+        $display("Reset completado. Iniciando ejecucion...");
+        $display("");
+        
+        // ====================================================================
+        // Ejecutar simulación
+        // ====================================================================
+        $display("EJECUCION DEL PROGRAMA:");
+        $display("--------------------------------------------------------------");
+        $display("Ciclo | PC       | Instruccion");
+        $display("--------------------------------------------------------------");
+        
+        // Ejecutar hasta 500 ciclos o hasta halt
+        for (cycle_count = 1; cycle_count <= 500; cycle_count = cycle_count + 1) begin
+            @(posedge clk);
+            
+            // Mostrar estado cada 10 ciclos
+            if (cycle_count % 10 == 0 || cycle_count <= 20) begin
+                $display("%5d | %h | %h", 
+                    cycle_count,
+                    uut.PC_current,
+                    uut.Instruction_IF);
+            end
+            
+            // Detectar halt (j halt -> PC no cambia)
+            if (cycle_count > 50) begin
+                // Verificar si es instrucción J apuntando a sí misma
+                if (uut.Instruction_IF[31:26] == 6'b000010 && 
+                    uut.PC_current == uut.pc_unit.PC_out) begin
+                    $display("");
+                    $display("Programa alcanzo instruccion HALT en ciclo %0d", cycle_count);
+                    simulation_done = 1;
+                    break;
+                end
+            end
+        end
+        
+        // ====================================================================
+        // Mostrar resultados
+        // ====================================================================
+        if (simulation_done) begin
+            #50;  // Esperar unos ciclos más para completar el pipeline
+        end else begin
+            $display("");
+            $display("TIMEOUT: Programa no termino en 500 ciclos");
+        end
+        
+        $display("");
+        $display("============================================================");
+        $display("   RESULTADOS DE LA EJECUCION");
+        $display("============================================================");
+        $display("");
+        
+        // Mostrar banco de registros
+        $display("BANCO DE REGISTROS (valores relevantes):");
+        $display("   $t0 ($8):  %0d", uut.regfile.registers[8]);
+        $display("   $t1 ($9):  %0d", uut.regfile.registers[9]);
+        $display("   $t2 ($10): %0d", uut.regfile.registers[10]);
+        $display("   $t3 ($11): %0d", uut.regfile.registers[11]);
+        $display("   $t5 ($13): %0d (direccion base)", uut.regfile.registers[13]);
+        $display("");
+        
+        // Mostrar memoria de datos
+        $display("MEMORIA DE DATOS:");
+        $display("   mem[0] = %0d (monto inicial: 47)", uut.dmem.memory[0]);
+        $display("   mem[1] = %0d (denominacion: 25)", uut.dmem.memory[1]);
+        $display("   mem[2] = %0d (denominacion: 10)", uut.dmem.memory[2]);
+        $display("   mem[3] = %0d (denominacion: 5)", uut.dmem.memory[3]);
+        $display("   mem[4] = %0d (denominacion: 1)", uut.dmem.memory[4]);
+        $display("");
+        $display("   RESULTADOS:");
+        $display("   mem[5] = %0d (monedas de 25)", uut.dmem.memory[5]);
+        $display("   mem[6] = %0d (monedas de 10)", uut.dmem.memory[6]);
+        $display("   mem[7] = %0d (monedas de 5)", uut.dmem.memory[7]);
+        $display("   mem[8] = %0d (monedas de 1)", uut.dmem.memory[8]);
+        $display("   mem[9] = %0d (TOTAL de monedas)", uut.dmem.memory[9]);
+        $display("");
+        
+        // Verificar resultado
+        if (uut.dmem.memory[9] == 5) begin
+            $display("============================================================");
+            $display("   PRUEBA EXITOSA!");
+            $display("   Cambio de 47 centavos = 5 monedas");
+            $display("   (1x25 + 2x10 + 0x5 + 2x1)");
+            $display("============================================================");
+        end else begin
+            $display("============================================================");
+            $display("   RESULTADO INESPERADO: %0d monedas", uut.dmem.memory[9]);
+            $display("============================================================");
+        end
+        
+        $display("");
+        $display("Simulacion completada en %0d ciclos", cycle_count);
+        $display("");
+        
+        #100;
+        $finish;
+    end
+    
+    // ========================================================================
+    // Timeout de seguridad
+    // ========================================================================
+    initial begin
+        #50000;
+        $display("");
+        $display("TIMEOUT: Simulacion detenida despues de 50000ns");
+        $finish;
+    end
+
+endmodule
