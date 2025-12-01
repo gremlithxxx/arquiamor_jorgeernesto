@@ -1,0 +1,467 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/ARQUIAMOR/PROYECTO1
+vAdder
+!s110 1764557421
+!i10b 1
+!s100 4gXDcYOLAbYF[QE=SM]VD0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8;W@e;?nA9beTT17ETSz`2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/ARQUIAMOR/AAAAAA
+w1764297654
+8E:/ARQUIAMOR/AAAAAA/Adder.v
+FE:/ARQUIAMOR/AAAAAA/Adder.v
+!i122 0
+L0 2 9
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1764557420.000000
+!s107 E:/ARQUIAMOR/AAAAAA/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/Adder.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@adder
+vALU
+!s110 1764557422
+!i10b 1
+!s100 CDToXoGWTNgzEmV@5O3OI2
+R0
+IdMclD_LX^[`HKfee:6@ZK3
+R1
+R2
+w1764297658
+8E:/ARQUIAMOR/AAAAAA/ALU.v
+FE:/ARQUIAMOR/AAAAAA/ALU.v
+!i122 1
+L0 13 26
+R3
+r1
+!s85 0
+31
+!s108 1764557421.000000
+!s107 E:/ARQUIAMOR/AAAAAA/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/ALU.v|
+!i113 1
+R4
+R5
+n@a@l@u
+vALUControl
+!s110 1764557424
+!i10b 1
+!s100 BHB>[:;oHbU?>afPXOP]P3
+R0
+I`f2_:H8lQE=Z1]:7B]>HS3
+R1
+R2
+w1764297630
+8E:/ARQUIAMOR/AAAAAA/ALUControl.v
+FE:/ARQUIAMOR/AAAAAA/ALUControl.v
+!i122 2
+L0 18 90
+R3
+r1
+!s85 0
+31
+!s108 1764557423.000000
+!s107 E:/ARQUIAMOR/AAAAAA/ALUControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/ALUControl.v|
+!i113 1
+R4
+R5
+n@a@l@u@control
+vBancoRegistros
+!s110 1764557425
+!i10b 1
+!s100 QcdX?RXamleU[mP2cl<fl2
+R0
+IfH=JndjjHW335Y<Ra=9<P0
+R1
+R2
+w1764297602
+8E:/ARQUIAMOR/AAAAAA/BancoRegistros.v
+FE:/ARQUIAMOR/AAAAAA/BancoRegistros.v
+!i122 3
+L0 12 59
+R3
+r1
+!s85 0
+31
+!s108 1764557424.000000
+!s107 E:/ARQUIAMOR/AAAAAA/BancoRegistros.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/BancoRegistros.v|
+!i113 1
+R4
+R5
+n@banco@registros
+vControlUnit
+!s110 1764557427
+!i10b 1
+!s100 ZO4@A<eOKMPT;T1GZ;cFP3
+R0
+I:W<0fN0;dUz0774z>^Qkj1
+R1
+R2
+w1764297598
+8E:/ARQUIAMOR/AAAAAA/ControlUnit.v
+FE:/ARQUIAMOR/AAAAAA/ControlUnit.v
+!i122 4
+L0 12 213
+R3
+r1
+!s85 0
+31
+!s108 1764557426.000000
+!s107 E:/ARQUIAMOR/AAAAAA/ControlUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/ControlUnit.v|
+!i113 1
+R4
+R5
+n@control@unit
+vEX_MEM_Buffer
+!s110 1764557428
+!i10b 1
+!s100 d>n>z>FUk`R02ojN=EUc81
+R0
+I=O@K>RcVZGb<NL8H=o>cH3
+R1
+R2
+Z6 w1764297572
+8E:/ARQUIAMOR/AAAAAA/EX_MEM_Buffer.v
+FE:/ARQUIAMOR/AAAAAA/EX_MEM_Buffer.v
+!i122 5
+L0 12 72
+R3
+r1
+!s85 0
+31
+!s108 1764557427.000000
+!s107 E:/ARQUIAMOR/AAAAAA/EX_MEM_Buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/EX_MEM_Buffer.v|
+!i113 1
+R4
+R5
+n@e@x_@m@e@m_@buffer
+vID_EX_Buffer
+!s110 1764557430
+!i10b 1
+!s100 VNNANG5z4K1VXGR0`Az_60
+R0
+IR5Wj60RlGA2DN_gOn>;T[3
+R1
+R2
+w1764297620
+8E:/ARQUIAMOR/AAAAAA/ID_EX_Buffer.v
+FE:/ARQUIAMOR/AAAAAA/ID_EX_Buffer.v
+!i122 6
+L0 11 101
+R3
+r1
+!s85 0
+31
+!s108 1764557429.000000
+!s107 E:/ARQUIAMOR/AAAAAA/ID_EX_Buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/ID_EX_Buffer.v|
+!i113 1
+R4
+R5
+n@i@d_@e@x_@buffer
+vIF_ID_Buffer
+!s110 1764557431
+!i10b 1
+!s100 0Wa:13Y]9zKg^?34OJU8R1
+R0
+ICTmP<mTGD^DGef_n75o>I0
+R1
+R2
+w1764297644
+8E:/ARQUIAMOR/AAAAAA/IF_ID_Buffer.v
+FE:/ARQUIAMOR/AAAAAA/IF_ID_Buffer.v
+!i122 7
+L0 7 34
+R3
+r1
+!s85 0
+31
+!s108 1764557430.000000
+!s107 E:/ARQUIAMOR/AAAAAA/IF_ID_Buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/IF_ID_Buffer.v|
+!i113 1
+R4
+R5
+n@i@f_@i@d_@buffer
+vMEM_WB_Buffer
+Z7 !s110 1764557433
+!i10b 1
+!s100 dhi:=m`VAzfJYGSRVmOMc3
+R0
+ISYWFBezRW2Jg0hIEeh?991
+R1
+R2
+R6
+8E:/ARQUIAMOR/AAAAAA/MEM_WB_Buffer.v
+FE:/ARQUIAMOR/AAAAAA/MEM_WB_Buffer.v
+!i122 8
+L0 9 39
+R3
+r1
+!s85 0
+31
+!s108 1764557432.000000
+!s107 E:/ARQUIAMOR/AAAAAA/MEM_WB_Buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/MEM_WB_Buffer.v|
+!i113 1
+R4
+R5
+n@m@e@m_@w@b_@buffer
+vMemoriaDatos
+R7
+!i10b 1
+!s100 d=aH[0@;MamT_0j`]e4U^0
+R0
+I3hV5O3A3RI70@2[>_AX0g0
+R1
+R2
+w1764297640
+8E:/ARQUIAMOR/AAAAAA/MemoriaDatos.v
+FE:/ARQUIAMOR/AAAAAA/MemoriaDatos.v
+!i122 9
+L0 11 38
+R3
+r1
+!s85 0
+31
+!s108 1764557433.000000
+!s107 E:/ARQUIAMOR/AAAAAA/MemoriaDatos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/MemoriaDatos.v|
+!i113 1
+R4
+R5
+n@memoria@datos
+vMemoriaInstrucciones
+!s110 1764557435
+!i10b 1
+!s100 gdLRb5BWRBY5Q4>XVX96E2
+R0
+IAL9[jbm>AVf0L9``z0Z_N0
+R1
+R2
+w1764298564
+8E:/ARQUIAMOR/AAAAAA/MemoriaInstrucciones.v
+FE:/ARQUIAMOR/AAAAAA/MemoriaInstrucciones.v
+!i122 10
+L0 11 25
+R3
+r1
+!s85 0
+31
+!s108 1764557434.000000
+!s107 E:/ARQUIAMOR/AAAAAA/MemoriaInstrucciones.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/MemoriaInstrucciones.v|
+!i113 1
+R4
+R5
+n@memoria@instrucciones
+vMux2to1_32bit
+Z8 !s110 1764557436
+!i10b 1
+!s100 jFGAC@fm8L6HIhW[MUA;E3
+R0
+IUCLDb1NYfBYCd6R;B`A7<0
+R1
+R2
+Z9 w1764298348
+Z10 8E:/ARQUIAMOR/AAAAAA/Mux.v
+Z11 FE:/ARQUIAMOR/AAAAAA/Mux.v
+!i122 11
+L0 22 8
+R3
+r1
+!s85 0
+31
+Z12 !s108 1764557435.000000
+Z13 !s107 E:/ARQUIAMOR/AAAAAA/Mux.v|
+Z14 !s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/Mux.v|
+!i113 1
+R4
+R5
+n@mux2to1_32bit
+vMux2to1_5bit
+R8
+!i10b 1
+!s100 PIK;]@o]U@XUzI@MEz9T72
+R0
+IHQnmCRNcVMAT;AP^MN8g11
+R1
+R2
+R9
+R10
+R11
+!i122 11
+L0 8 8
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R4
+R5
+n@mux2to1_5bit
+vMux3to1_32bit
+R8
+!i10b 1
+!s100 cT^5C?j39gk`GYYL9ZmjA1
+R0
+IHTdfn_8;bTV]^dJPc1Ib:3
+R1
+R2
+R9
+R10
+R11
+!i122 11
+L0 36 16
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R4
+R5
+n@mux3to1_32bit
+vMux4to1_32bit
+R8
+!i10b 1
+!s100 X;ZZg@:KHz8mT9i_bKeKQ2
+R0
+I;9F^G=z8hndlnUYRNSI=L1
+R1
+R2
+R9
+R10
+R11
+!i122 11
+L0 59 18
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R4
+R5
+n@mux4to1_32bit
+vPC
+!s110 1764557438
+!i10b 1
+!s100 aMiQoFo98?m`<^499ZX9A2
+R0
+IMd1gc5H[]B2ZbH1EjE?n31
+R1
+R2
+w1764297648
+8E:/ARQUIAMOR/AAAAAA/PC (1).v
+FE:/ARQUIAMOR/AAAAAA/PC (1).v
+!i122 12
+L0 8 20
+R3
+r1
+!s85 0
+31
+!s108 1764557437.000000
+!s107 E:/ARQUIAMOR/AAAAAA/PC (1).v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/PC (1).v|
+!i113 1
+R4
+R5
+n@p@c
+vShiftLeft2
+Z15 !s110 1764557439
+!i10b 1
+!s100 6HAzfk?I97jTPXC40<hH;2
+R0
+IaNSZ1`T2Y9N]2c8Qn`5]@1
+R1
+R2
+Z16 w1764297606
+Z17 8E:/ARQUIAMOR/AAAAAA/ShiftLeft2.v
+Z18 FE:/ARQUIAMOR/AAAAAA/ShiftLeft2.v
+!i122 13
+L0 11 10
+R3
+r1
+!s85 0
+31
+Z19 !s108 1764557438.000000
+Z20 !s107 E:/ARQUIAMOR/AAAAAA/ShiftLeft2.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/ShiftLeft2.v|
+!i113 1
+R4
+R5
+n@shift@left2
+vShiftLeft2_Jump
+R15
+!i10b 1
+!s100 c_8e9Z8BWa6bF7zfI<l5:0
+R0
+I3[^ie_VDIY^_TXl;KCmJK2
+R1
+R2
+R16
+R17
+R18
+!i122 13
+L0 30 8
+R3
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R4
+R5
+n@shift@left2_@jump
+vSignExtend
+!s110 1764557441
+!i10b 1
+!s100 F2J7hEK^6dmF6f3MN;iLk0
+R0
+IXl9EY2^j[Rb::j^b4<h^T3
+R1
+R2
+w1764297770
+8E:/ARQUIAMOR/AAAAAA/SignExtend.v
+FE:/ARQUIAMOR/AAAAAA/SignExtend.v
+!i122 14
+L0 10 11
+R3
+r1
+!s85 0
+31
+!s108 1764557440.000000
+!s107 E:/ARQUIAMOR/AAAAAA/SignExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ARQUIAMOR/AAAAAA/SignExtend.v|
+!i113 1
+R4
+R5
+n@sign@extend
